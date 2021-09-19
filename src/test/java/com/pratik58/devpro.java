@@ -15,38 +15,6 @@ public class devpro {
 
     private WebDriver driver;
 
-//    @Test(priority = 0)
-//    public void firstBox() throws InterruptedException {
-//        driver.get("https://nodejs.dev/learn");
-//        String title = driver.getTitle();
-//        System.out.println(title);
-//        Assert.assertEquals(title, "Introduction to Node.js");
-//
-//        driver.manage().window().maximize();
-//        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        Thread.sleep(3000);
-//        js.executeScript("window.scrollBy(0,3010)");
-//
-//        Thread.sleep(3000);
-//        driver.findElement(By.cssSelector(".material-icons:nth-child(3)")).click();
-
-//        WebElement searchIcon = driver.findElement(By.cssSelector("#jump-to-suggestion-search-global .jump-to-suggestion-name"));
-//        searchIcon.click();
-//
-//        WebElement searchEleOne = driver.findElement(By.cssSelector(".menu-item:nth-child(2)"));
-//        searchEleOne.click();
-//
-//        WebElement searchEleTwo = driver.findElement(By.cssSelector(".menu-item:nth-child(3)"));
-//        searchEleTwo.click();
-//
-//        WebElement searchEleThree = driver.findElement(By.cssSelector(".menu-item:nth-child(1)"));
-//        searchEleThree.click();
-//
-//        WebElement searchPython = driver.findElement(By.linkText("python"));
-//        searchPython.click();
-
-//    }
-
     @Test(priority = 0)
     public void firstBox() {
         driver.get("https://nodejs.dev/learn");
